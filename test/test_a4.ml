@@ -78,7 +78,6 @@ let suite =
          "test_intersection_case_sensitive" >:: test_intersection_case_sensitive;
          "test_intersection_case_insensitive"
          >:: test_intersection_case_insensitive;
-         (* Add more test cases here *)
        ]
 
 let () = run_test_tt_main suite
